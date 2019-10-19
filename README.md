@@ -24,7 +24,7 @@ drop table appointments;
 -- Start java-spring server build with gradle before exectuing below code. It will create the new
 -- Tables for you.
 
-INSERT INTO doctos (id,f_name,l_name,email,payments,conditions,adddress)
+INSERT INTO doctors (id,f_name,l_name,email,payments,conditions,adddress)
 VALUES
 (1, "Bob", "Smith, "bobsmith@aim.com", "Medicaid", "cancer", "1 California Way, Californa City, CA 82182"),
 (2, "James", "Smith, "bobsmith@aim.com", "Medicaid", "cancer", "1 California Way, Californa City, CA 82182"),
